@@ -47,7 +47,6 @@ const server = http.createServer((request, response) => {
 	                '                               <tr> \n' +
 	                '                                       <td>' + friends + '</td> \n' +
 	                '                                       <td>' + friends[0] + '</td> \n' +
-	                '                                       <td>' + friends[0][0][0] + '</td> \n' +
 	                '                                       <td>' + friends.boys + '</td> \n' +
 	                '                                       <td>' + friends.boys[0] + '</td> \n' +
 	                '                                       <td>' + friends.boys[0][0] + '</td> \n' +
