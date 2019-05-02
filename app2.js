@@ -45,7 +45,7 @@ const server = http.createServer((request, response) => {
 	        for (var f in friends.boys[key])
 	            response.write(
 	                '                               <tr> \n' +
-	                '                                       <td>' + friends.boys[key][f]["firstName"] + '</td> \n' +
+	                '                                       <td>' + friends[0] + '</td> \n' +
 	                '                                       <td>' + friends.boys[key][f]["lastName"] + '</td> \n' +
 	                '                                       <td>' + friends.boys[key][f]["phone"] + '</td> \n' +
 	                '                                       <td>' + 'male' + '</td> \n' +
