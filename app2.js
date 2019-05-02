@@ -50,7 +50,6 @@ const server = http.createServer((request, response) => {
 	                '                                       <td>' + friends.boys + '</td> \n' +
 	                '                                       <td>' + friends.boys[0] + '</td> \n' +
 	                '                                       <td>' + friends.boys[0][0] + '</td> \n' +
-	                '                                       <td>' + friends.boys[0][0][0] + '</td> \n' +
 	                '                                       <td>' + 'male' + '</td> \n' +
 	                '                               </tr> \n'
 	            );
