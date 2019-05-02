@@ -41,23 +41,23 @@ const server = http.createServer((request, response) => {
         '                       </thead> \n' +
         '                       <tbody> \n'
     );
-	for (var key in friends['boys'])
-	        for (var f in friends['boys'][key])
+	for (var key in friends[0]['boys'])
+	        for (var f in friends[0]['boys'][key])
 	            response.write(
 	                '                               <tr> \n' +
-	                '                                       <td>' + friends['boys'][key][f]["firstName"] + '</td> \n' +
-	                '                                       <td>' + friends['boys'][key][f]["lastName"] + '</td> \n' +
-	                '                                       <td>' + friends['boys'][key][f]["phone"] + '</td> \n' +
+	                '                                       <td>' + friends[0]['boys'][key][f]["firstName"] + '</td> \n' +
+	                '                                       <td>' + friends[0]['boys'][key][f]["lastName"] + '</td> \n' +
+	                '                                       <td>' + friends[0]['boys'][key][f]["phone"] + '</td> \n' +
 	                '                                       <td>' + 'male' + '</td> \n' +
 	                '                               </tr> \n'
 	            );
-	for (var key in friends['girls'])
-	        for (var f in friends['girls'][key])
+	for (var key in friends[0]['girls'])
+	        for (var f in friends[0]['girls'][key])
 	            response.write(
 	                '                               <tr> \n' +
-	                '                                       <td>' + friends['girls'][key][f]["firstName"] + '</td> \n' +
-	                '                                       <td>' + friends['girls'][key][f]["lastName"] + '</td> \n' +
-	                '                                       <td>' + friends['girls'][key][f]["phone"] + '</td> \n' +
+	                '                                       <td>' + friends[0]['girls'][key][f]["firstName"] + '</td> \n' +
+	                '                                       <td>' + friends[0]['girls'][key][f]["lastName"] + '</td> \n' +
+	                '                                       <td>' + friends[0]['girls'][key][f]["phone"] + '</td> \n' +
 	                '                                       <td>' + 'female' + '</td> \n' +
 	                '                               </tr> \n'
 	            );
